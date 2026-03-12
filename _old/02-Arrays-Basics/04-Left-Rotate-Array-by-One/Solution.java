@@ -15,6 +15,8 @@ class Solution {
             {1, 5, 2, 4, 3},
             {4, 1, 2, 5, 3}
         };
+        
+        
         Solution solution = new Solution();
         for (int[] testCase : testCases) {
             solution.rotateArrayByOne(testCase);
