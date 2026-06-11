@@ -11,9 +11,7 @@ public class LongestSubsequence {
 
 
         for (int element : nums) {
-            if (set.contains(element - 1)) {
-                continue;                
-            }
+            if (set.contains(element - 1)) continue;                
 
             int seq = 1;
             int temp = element + 1;
