@@ -32,12 +32,6 @@ public class FloorAndCeilInSortedArray {
         int[] result = solver.getFloorAndCeil(nums, x);
         System.out.println("Input: " + java.util.Arrays.toString(nums) + ", x = " + x);
         System.out.println("Floor = " + result[0] + ", Ceil = " + result[1]);
-
-        // x = 10;
-        // result = solver.getFloorAndCeil(nums, x);
-        // System.out.println("Input: " + java.util.Arrays.toString(nums) + ", x = " +
-        // x);
-        // System.out.println("Floor = " + result[0] + ", Ceil = " + result[1]);
     }
 
 }
